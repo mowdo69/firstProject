@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Ledger</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" media="screen and (min-width: 760px)" href="CSS/mobile.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1100px)" href="CSS/widescreen.css" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body id="home">
+    <nav id="navbar">
+        <h1 class="logo">
+            <span class="text-primary">
+                <i class="fas fa-address-card"></i> Edge</span>Ledger
+        </h1>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Who">What</a></li>
+            <li><a href="#Who">Who</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!--Header-->
+    <header id="showcase">
+        <div class="showcase-content">
+            <h1 class="l-heading">The Sky Is The Limit</h1>
+            <p class="lead">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet
+                maiores nam quidem repellendus suscipit.
+            </p>
+            <a href="#What" class="btn">Read More</a>
+        </div>
+    </header>
+    <!--Section for "What we do"-->
+    <section id="what" class="bg-ligh py-1">
+        <div class="container">
+            <h2 class="m-heading text-center">
+                <span class="text-primary">What</span> We Do
+            </h2>
+            <div class="items">
+                <div class="item">
+                    <i class="fas fa-university fa-2x"></i>
+                    <div>
+                        <h3>Portfolio Management</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Ipsum eius laboriosam facere,
+                             nisi suscipit libero?</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="fas fa-university fa-2x"></i>
+                    <div>
+                        <h3>Portfolio Management</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Ipsum eius laboriosam facere,
+                             nisi suscipit libero?</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="fas fa-university fa-2x"></i>
+                    <div>
+                        <h3>Portfolio Management</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Ipsum eius laboriosam facere,
+                             nisi suscipit libero?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section Who we are-->
+    <section id="who">
+        <div class="who-img"></div>
+        <div class="who-text bg-dark p-2">
+            <h2 class="m-heading"><span class="text-primary">Who</span> We Are</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet
+                maiores nam quidem repellendus suscipit. Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. A amet maiores nam quidem repellendus
+                suscipit.
+            </p>
+            <h3>Our Team</h3>
+            <ul class="list">
+                <li>Sundiata Keita: CEO</li>
+                <li>Salieu Jallow: CTO</li>
+                <li>Abdou Ceesay: Senior Accountant</li>
+                <li>Nuhammed Ndong: Lead Marketing</li>
+                <li>Mowdo Malick: Investment Manager</li>
+            </ul>
+        </div>
+    </section>
+    <!--Section client-->
+    <section id="client" class="py-1">
+        <div class="container">
+            <h2 class="m-heading text-center">
+                <span class="text-primary">Our</span> Clients
+            </h2>
+            <div class="items py-1">
+                <div><img src="./img/logos/logo1.png" alt="client" /></div>
+                <div><img src="./img/logos/logo2.png" alt="client" /></div>
+                <div><img src="./img/logos/logo3.png" alt="client" /></div>
+                <div><img src="./img/logos/logo4.png" alt="client" /></div>
+                <div><img src="./img/logos/logo5.png" alt="client" /></div>
+            </div>
+        </div>
+    </section>
+    <!--Sectioln contact From-->
+    <section id="contact">
+        <div class="contact-form bg-primary p-2">
+            <h2 class="m-heading">Contact Us</h2>
+            <p>please use this form below to contact us</p>
+
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Your Name" />
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="xxx@gmail.com" />
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="number" name="phone" id="phone" placeholder="tele-phone" />
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Your message" cols="30" rows="10"></textarea>
+                </div>
+                <div class="submit-btn">
+                    <input type="submit" value="Send" class="btn btn-dark" />
+                </div>
+               
+            </form>
+        </div>
+
+        <div class="map"></div>
+    </section>
+    <!--    Footer Section-->
+    <footer id="main-footer" class="text-center bg-dark py-1">
+        <div class="container">
+            <p>copy right &copy; 2022_ All right resereves</p>
+        </div>
+    </footer>
+    <script src="JS/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGPTRQKBsn7h-0UjTdNZkL7W_tZqRIkoE&callback=initMap"
+        async defer></script>
+</body>
+
+</html>
